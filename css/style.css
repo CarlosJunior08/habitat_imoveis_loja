@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+
+/*Início CSS HOME*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to top, #fbfbfb 0%, #ffffff 100%);
+}
+
+.cabecalho{
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 24px;
+}
+.botao-home{
+    width: 100px;
+    height: 100px;
+}
+
+.cabecalho-logo{
+    height:100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 25%;
+    box-shadow: 4px 5px 4px #130000;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+
+.cabecalho-menu-item{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    text-decoration:none !important;
+}
+
+.cabecalho-menu-item-contato{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-decoration:none !important;
+    display: flex;
+    gap: 30px;
+    padding: 24px
+}
+
+.cabecalho-menu-item:hover{
+    color: rgba(71, 31, 6, 0.4);
+}
+
+.casa{
+    width: 100%;
+    max-width: 1440px;
+    max-height: 392px;
+    object-fit: fill;
+    margin: 0 auto;
+    z-index: 0;
+    position: relative;
+    top: 0;
+}
+
+.conteudo{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top: 3px solid rgb(220, 172, 113);
+    margin-bottom: 50px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(206, 88, 59);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    color: rgb(228, 121, 94);
+    text-align: center;
+}
+
+.checkbox{
+    display: inline-block;
+    margin-top: -25px;
+    align-items: center;
+}
+
+.button-buscar{
+    display: inline-block;
+    margin-top: -50px;
+    align-items: center;
+}
+
+.legenda{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: bisque;
+    width: 200px;
+    height: 60px;
+    box-shadow: 4px 5px 4px #7c6c6c;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: brown;
+}
+.conteudo-principal-escrito-botao:hover{
+background-color: rgba(231, 102, 21, 0.4);
+}
+
+.conteudo-principal-imagem{
+    height: 400px;
+    margin-top: 50px;
+    border: 5px solid black;
+    box-shadow: 4px 5px 4px #130000;
+}
+
+.conteudo-catálogo{
+    height: 400px;
+    margin-top: 50px;
+    border: 5px solid black;
+    box-shadow: 4px 5px 4px #130000;
+    flex-direction: row;
+}
+
+.conteudo-sessao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    
+}
+
+.conteudo-secundario-titulo{
+    border-top: solid rgb(220, 172, 113);
+    padding-top: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(74, 61, 61);
+    margin-bottom: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction:row;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 25px;
+    box-shadow: #171717;
+}
+
+
+.rodape{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(228, 121, 94);
+    text-align: center;
+    padding: 60px;
+    border-top: 3px solid rgb(220, 172, 113);
+}
+
+/*Final CSS Home*/
+.endereco{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(56, 27, 27);
+    margin-left: 500px;
+    
+}
+/*CSS Contato*/
+
+.form-group{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a62b2b;
+    font-size: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.endereco{
+    padding-top: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(74, 61, 61);
+    margin-bottom: 15px;
+    margin-top: 25px;
+    gap: 25px;
+    text-align: center;
+}
+
+.login-botao{
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.botão-entrar{
+    margin-top: 25px;
+}
+
+.img-fluid{
+    width: 200%;
+    height: auto;
+}
+
+.form{
+    margin-left: 250px;
+}
+
+.apps{
+    margin-top: 25px;
+}
